@@ -18,7 +18,7 @@ class HomeView extends GetView<HomeController> {
         child: ElevatedButton(
           child: const Text("Pick Video"),
           onPressed: () {
-          
+            controller.pickVideo();
           },
         ),
       ),
